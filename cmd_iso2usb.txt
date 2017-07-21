@@ -1,0 +1,1 @@
+dd if=dban-2.3.0_i586.iso of=/dev/sdb bs=4M && sync
