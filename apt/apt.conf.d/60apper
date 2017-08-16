@@ -1,0 +1,11 @@
+## This file is provided by Apper to enable the download of
+## small-size icons for applications in the repository.
+##
+## If icons are disabled, Apper will fall back to not displaying AppStream
+## metadata for GUI applications.
+
+Acquire::IndexTargets {
+    deb::DEP-11-icons  {
+        DefaultEnabled "true";
+    };
+};

@@ -15,3 +15,6 @@ deb http://ftp.fr.debian.org/debian/ stretch-updates main non-free contrib
 deb-src http://ftp.fr.debian.org/debian/ stretch-updates main non-free contrib
 
 deb http://www.deb-multimedia.org stretch main non-free
+
+#virtualbox
+deb http://download.virtualbox.org/virtualbox/debian stretch contrib
