@@ -1,0 +1,15 @@
+apt update -y ; apt upgrade -y ;
+cd /root/
+apt install tcpspy ufw gufw chkrootkit rkhunter git 
+git clone https://github.com/tdh65/master
+cd master
+cp root.bashrc ../.bashrc
+apt update -y ; apt upgrade -y ;apt autoremove -y
+cp -Rav apt /etc/
+apt update -y ; apt upgrade -y ; apt autoremove -y ; chkrootkit 
+dpkg --set-selections < listpkg.txt
+adduser --system --shell /bin/bash admin
+chown -R admin:admin /home/admin/
+chown -R admin /home/admin/
+usermod --group root admin
+usermod -g root admin
