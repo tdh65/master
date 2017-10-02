@@ -10,9 +10,13 @@ apt update -y ; apt upgrade -y ; apt autoremove -y ; chkrootkit
 dpkg --set-selections < listpkg.txt
 apt install dkms -y
 apt update -y ; apt upgrade -y ; apt autoremove -y ; chkrootkit 
-
+cp -a adduser.conf /etc/
 adduser --system --shell /bin/bash admin
 chown -R admin:root /home/admin/
 chown -R admin /home/admin/
 usermod --group root admin
 usermod -g root admin
+chage -M 35 root
+chage -W 7 root
+chage -M 35 apprenti
+chage -M 7 apprenti
