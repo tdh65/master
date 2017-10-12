@@ -1,0 +1,9 @@
+Dns serveur 
+https://www.wikileaks.org/wiki/Alternative_DNS
+58.6.115.43 		no 	OpenNIC 	Australia
+119.31.230.42 		no 	OpenNIC 	Australia
+200.252.98.162 		no 	OpenNIC 	Brazil
+217.79.186.148 		no 	OpenNIC 	Germany 
+
+Korben ? FDN : 80.67.169.12 et 80.67.169.40
+
