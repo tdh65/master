@@ -2,31 +2,47 @@
 APT::NeverAutoRemove
 {
    "^linux-image-4\.9\.0-3-amd64$";
+   "^linux-image-4\.9\.0-6-amd64$";
    "^linux-headers-4\.9\.0-3-amd64$";
+   "^linux-headers-4\.9\.0-6-amd64$";
    "^linux-image-extra-4\.9\.0-3-amd64$";
+   "^linux-image-extra-4\.9\.0-6-amd64$";
    "^linux-signed-image-4\.9\.0-3-amd64$";
+   "^linux-signed-image-4\.9\.0-6-amd64$";
    "^kfreebsd-image-4\.9\.0-3-amd64$";
+   "^kfreebsd-image-4\.9\.0-6-amd64$";
    "^kfreebsd-headers-4\.9\.0-3-amd64$";
+   "^kfreebsd-headers-4\.9\.0-6-amd64$";
    "^gnumach-image-4\.9\.0-3-amd64$";
+   "^gnumach-image-4\.9\.0-6-amd64$";
    "^.*-modules-4\.9\.0-3-amd64$";
+   "^.*-modules-4\.9\.0-6-amd64$";
    "^.*-kernel-4\.9\.0-3-amd64$";
+   "^.*-kernel-4\.9\.0-6-amd64$";
    "^linux-backports-modules-.*-4\.9\.0-3-amd64$";
+   "^linux-backports-modules-.*-4\.9\.0-6-amd64$";
    "^linux-tools-4\.9\.0-3-amd64$";
+   "^linux-tools-4\.9\.0-6-amd64$";
 };
 /* Debug information:
 # dpkg list:
-iF  linux-image-4.9.0-3-amd64     4.9.30-2+deb9u2              amd64        Linux 4.9 for 64-bit PCs
-iU  linux-image-amd64             4.9+80+deb9u1                amd64        Linux for 64-bit PCs (meta-package)
+ii  linux-image-4.9.0-3-amd64                     4.9.30-2+deb9u5                             amd64        Linux 4.9 for 64-bit PCs
+iF  linux-image-4.9.0-6-amd64                     4.9.88-1                                    amd64        Linux 4.9 for 64-bit PCs
+ii  linux-image-amd64                             4.9+80+deb9u4                               amd64        Linux for 64-bit PCs (meta-package)
 # list of installed kernel packages:
-4.9.0-3-amd64 4.9.30-2+deb9u2
+4.9.0-3-amd64 4.9.30-2+deb9u5
+4.9.0-6-amd64 4.9.88-1
 # list of different kernel versions:
-4.9.30-2+deb9u2
-# Installing kernel: 4.9.30-2+deb9u2 (4.9.0-3-amd64)
-# Running kernel: 4.9.30-2+deb9u2 (4.9.0-3-amd64)
-# Last kernel: 4.9.30-2+deb9u2
-# Previous kernel: 
+4.9.88-1
+4.9.30-2+deb9u5
+# Installing kernel: 4.9.88-1 (4.9.0-6-amd64)
+# Running kernel: 4.9.88-1 (4.9.0-6-amd64)
+# Last kernel: 4.9.88-1
+# Previous kernel: 4.9.30-2+deb9u5
 # Kernel versions list to keep:
-4.9.30-2+deb9u2
+4.9.30-2+deb9u5
+4.9.88-1
 # Kernel packages (version part) to protect:
 4\.9\.0-3-amd64
+4\.9\.0-6-amd64
 */
